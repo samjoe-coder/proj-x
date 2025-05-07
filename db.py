@@ -2,7 +2,7 @@ import random
 from pymongo import MongoClient
 
 # Replace with your actual MongoDB Atlas URI
-MONGO_URI = "mongodb+srv://system:123samMonGODB@project-x.d6nm8yo.mongodb.net/?retryWrites=true&w=majority&appName=project-x"
+MONGO_URI = "mongodb+srv://system:<password>@project-x.d6nm8yo.mongodb.net/?retryWrites=true&w=majority&appName=project-x"
 
 client = MongoClient(MONGO_URI)
 db = client["dropdown_db"]

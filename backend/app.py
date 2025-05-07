@@ -9,7 +9,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-client = MongoClient('mongodb+srv://system:123samMonGODB@project-x.d6nm8yo.mongodb.net/?retryWrites=true&w=majority&appName=project-x')
+client = MongoClient('mongodb+srv://system:<password>@project-x.d6nm8yo.mongodb.net/?retryWrites=true&w=majority&appName=project-x')
 db = client["dropdown_db"]
 categories_collection = db["categories"]
 
